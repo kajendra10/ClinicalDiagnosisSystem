@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    android:background="@drawable/background"
+    tools:context=".SecondActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="@string/register"
+        android:gravity="center"
+        android:textSize="21sp"
+        android:textColor="@android:color/darker_gray"/>
+
+    <ImageView
+        android:layout_width="90dp"
+        android:layout_height="90dp"
+        android:src="@drawable/logo"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="5dp"
+        android:gravity="start"
+        android:layout_marginTop="19dp"
+        android:orientation="vertical">
+
+
+        <EditText
+            android:id="@+id/email"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:hint="@string/e_text"
+            android:textColorHint="@android:color/darker_gray"
+            android:backgroundTint="@android:color/white"
+            android:textColor="@android:color/white"
+            android:inputType="text"
+            tools:ignore="TextFields"/>
+
+        <EditText
+            android:id="@+id/username"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:hint="@string/us_text"
+            android:textColorHint="@android:color/darker_gray"
+            android:backgroundTint="@android:color/white"
+            android:textColor="@android:color/white"
+            android:maxLength="20"
+            android:inputType="text"/>
+
+        <EditText
+            android:id="@+id/password"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:hint="@string/us_password"
+            android:textColorHint="@android:color/darker_gray"
+            android:backgroundTint="@android:color/white"
+            android:textColor="@android:color/white"
+            android:inputType="textPassword"/>
+
+        <EditText
+            android:id="@+id/yoursex"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:hint="@string/us_sex"
+            android:textColorHint="@android:color/darker_gray"
+            android:backgroundTint="@android:color/white"
+            android:textColor="@android:color/white"
+            android:inputType="text"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="5dp"
+            android:gravity="right"
+            android:layout_marginTop="19dp"
+            android:orientation="vertical">
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="30dp"
+                android:id="@+id/bt_login"
+                android:text="@string/reg_text"
+                android:textColor="#FFFFFF"
+                android:background="@drawable/custom_button"
+                android:layout_marginTop="10dp"/>
+
+            <TextView
+                android:id="@+id/loginText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="110dp"
+                android:textColor="#136a8a"
+                android:textStyle="bold"
+                android:textAlignment="center"
+                android:text="@string/login_here2" />
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

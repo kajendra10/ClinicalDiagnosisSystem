@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "261509607752",
+    "project_id": "clinical-diagnosis-syste-f0d4c",
+    "storage_bucket": "clinical-diagnosis-syste-f0d4c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:261509607752:android:491e3fd967b7bda9f7c37d",
+        "android_client_info": {
+          "package_name": "com.example.clinicaldiagnosissystem"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "261509607752-rsu6idt1re9n9a1uld175i95o0a9ge8m.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBqVcMXdHncapGTS3K3DmOSHYc6Iainlus"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "261509607752-rsu6idt1re9n9a1uld175i95o0a9ge8m.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

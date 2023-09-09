@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/clinical_1"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    tools:context=".ThirdActivity"
+    tools:ignore="ExtraText">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25sp"
+        android:layout_marginEnd="100dp"
+        android:text="@string/temp_text"
+        android:textColor="#00C3FF"
+        android:textSize="16.345sp"
+        android:textStyle="bold"
+        tools:ignore="TextContrastCheck" />
+
+    <EditText
+        android:id="@+id/temper_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="144dp"
+        android:backgroundTint="@android:color/holo_red_dark"
+        android:ems="4"
+        android:inputType="numberDecimal"
+        tools:ignore="Autofill,LabelFor,SpeakableTextPresentCheck,TouchTargetSizeCheck" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="11sp"
+        android:layout_marginEnd="62dp"
+        android:text="@string/s_text"
+        android:textColor="#00C3FF"
+        android:textSize="16.345sp"
+        android:textStyle="bold"
+        tools:ignore="TextContrastCheck" />
+
+    <CheckBox
+        android:id="@+id/first_check"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="start"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="9dp"
+        android:buttonTint="#5FC3E4"
+        android:onClick="onCheckBoxClickedMethod"
+        android:text="@string/n_text"
+        android:textColor="#3A6073"
+        android:textSize="13sp"
+        android:textStyle="italic"
+        tools:ignore="TouchTargetSizeCheck" />
+
+
+    <CheckBox
+        android:id="@+id/second_check"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="start"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="1.4dp"
+        android:buttonTint="#5FC3E4"
+        android:onClick="onCheckBoxClickedMethod"
+        android:text="@string/b_text"
+        android:textColor="#3A6073"
+        android:textSize="13sp"
+        android:textStyle="italic"
+        tools:ignore="TouchTargetSizeCheck" />
+
+    <CheckBox
+        android:id="@+id/third_check"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="start"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="2dp"
+        android:buttonTint="#5FC3E4"
+        android:onClick="onCheckBoxClickedMethod"
+        android:text="@string/so_text"
+        android:textColor="#3A6073"
+        android:textSize="13sp"
+        android:textStyle="italic"
+        tools:ignore="TouchTargetSizeCheck" />
+
+    <CheckBox
+        android:id="@+id/fourth_check"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="start"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="2dp"
+        android:buttonTint="#5FC3E4"
+        android:onClick="onCheckBoxClickedMethod"
+        android:text="@string/v_text"
+        android:textColor="#3A6073"
+        android:textSize="13sp"
+        android:textStyle="italic"
+        tools:ignore="TouchTargetSizeCheck" />
+
+    <CheckBox
+        android:id="@+id/fifth_check"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="start"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="2dp"
+        android:buttonTint="#5FC3E4"
+        android:onClick="onCheckBoxClickedMethod"
+        android:text="@string/no_text"
+        android:textColor="#3A6073"
+        android:textSize="13sp"
+        android:textStyle="italic"
+        tools:ignore="TouchTargetSizeCheck" />
+
+    <CheckBox
+        android:id="@+id/sixth_check"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="start"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="2dp"
+        android:buttonTint="#5FC3E4"
+        android:onClick="onCheckBoxClickedMethod"
+        android:text="@string/a_text"
+        android:textColor="#3A6073"
+        android:textSize="13sp"
+        android:textStyle="italic"
+        tools:ignore="TouchTargetSizeCheck" />
+
+    <CheckBox
+        android:id="@+id/seventh_check"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="start"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="2dp"
+        android:buttonTint="#5FC3E4"
+        android:onClick="onCheckBoxClickedMethod"
+        android:text="@string/dii_text"
+        android:textColor="#3A6073"
+        android:textSize="13sp"
+        android:textStyle="italic"
+        tools:ignore="TouchTargetSizeCheck" />
+
+    <CheckBox
+        android:id="@+id/eighth_check"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="start"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="2dp"
+        android:buttonTint="#5FC3E4"
+        android:onClick="onCheckBoxClickedMethod"
+        android:text="@string/lb_text"
+        android:textColor="#3A6073"
+        android:textSize="13sp"
+        android:textStyle="italic"
+        tools:ignore="TouchTargetSizeCheck" />
+
+    <CheckBox
+        android:id="@+id/ninth_check"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="start"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="2dp"
+        android:buttonTint="#5FC3E4"
+        android:onClick="onCheckBoxClickedMethod"
+        android:text="@string/h_text"
+        android:textColor="#3A6073"
+        android:textSize="13sp"
+        android:textStyle="italic"
+        tools:ignore="TouchTargetSizeCheck" />
+
+    <CheckBox
+        android:id="@+id/tenth_check"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="start"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="2dp"
+        android:buttonTint="#5FC3E4"
+        android:onClick="onCheckBoxClickedMethod"
+        android:text="@string/ip_text"
+        android:textColor="#3A6073"
+        android:textSize="13sp"
+        android:textStyle="italic"
+        tools:ignore="TouchTargetSizeCheck,TouchTargetSizeCheck" />
+
+
+    <Button
+        android:id="@+id/bt_diagnose"
+        android:layout_width="wrap_content"
+        android:layout_height="31dp"
+        android:layout_marginStart="139dp"
+        android:layout_marginTop="12dp"
+        android:background="@drawable/custom_button2"
+        android:onClick="onButtonClicked"
+        android:text="@string/dig_text"
+        android:textColor="#FFFFFF"
+        tools:ignore="TouchTargetSizeCheck" />
+
+</LinearLayout>
